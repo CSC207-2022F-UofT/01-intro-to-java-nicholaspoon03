@@ -147,7 +147,7 @@ public class Basics {
 
         // Fill in the rest of the body here
 
-        for(String word : new String.split(to_split)) {
+        for(String word : to_split.split(" ")) {
             ret.append(word.charAt(0));
         }
 
